@@ -29,8 +29,6 @@ var app = express();
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
-const mongoose = require("mongoose");
-
 const mongoURI =
   process.env.MONGODB_URI ||
   "mongodb+srv://earlyaccess25_db_user:<3Ub2TwV04YlQiWc5>@cluster0.f4ze9yo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
